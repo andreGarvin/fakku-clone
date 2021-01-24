@@ -1,0 +1,31 @@
+.footer {
+  justify-content: center;
+  display: flex;
+  height: 60px;
+}
+
+.content {
+  justify-content: space-between;
+  flex-direction: row;
+  width: 75rem;
+  display: flex;
+}
+
+.footer div a,
+.footer div p {
+  text-transform: capitalize;
+  text-decoration: none;
+  margin-right: 1rem;
+  line-height: 2rem;
+  font-size: 0.8rem;
+  color: #aaaaaa;
+  font-weight: 300;
+}
+
+.footer div p {
+  margin: 0;
+}
+
+.footer div p::before {
+  content: "© ";
+}

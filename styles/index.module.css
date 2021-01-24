@@ -1,0 +1,31 @@
+.page {
+  background-color: #0f0e11;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+.content {
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.wrap {
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+}
+
+.wrapper {
+  flex-direction: row;
+  /* padding: 16px 0 0 0; */
+  align-self: center;
+  padding-top: 1rem;
+  display: flex;
+  height: 100%;
+  width: 75rem;
+}

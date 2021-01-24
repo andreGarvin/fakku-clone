@@ -1,0 +1,56 @@
+.sidepanel {
+  width: calc(15% - 1rem);
+}
+
+.header {
+  text-transform: capitalize;
+  line-height: 2.25rem;
+  margin: 0 0 18px 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #aaa;
+}
+
+.section {
+  flex-direction: column;
+  height: max-content;
+  margin-bottom: 19px;
+  display: flex;
+}
+
+.section-header {
+  line-height: unset;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.section-content {
+  flex-direction: column;
+  height: max-content;
+  display: flex;
+}
+
+.filter {
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+}
+
+.filter-title {
+  text-decoration: none;
+  margin: 0 0 0 0.4rem;
+  line-height: 1.5rem;
+  width: max-content;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.filter-title:hover {
+  text-decoration: underline;
+}
+
+.filter-checkbox {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+}

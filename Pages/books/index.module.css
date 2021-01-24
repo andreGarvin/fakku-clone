@@ -1,0 +1,49 @@
+.book-section-content {
+  flex-direction: column;
+  padding-left: 16px;
+  display: flex;
+  width: 100%;
+}
+
+.book-section-header {
+  justify-content: space-between;
+  align-items: flex-start;
+  height: max-content;
+  flex-direction: row;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.book-section-header h2 {
+  text-transform: capitalize;
+  margin: 4px 0 0 0;
+  font-size: 28px;
+}
+
+.book-section-header select {
+  border: 2px solid #383838;
+  background-color: #282828;
+  text-transform: capitalize;
+  line-height: 1.125rem;
+  font-size: 0.9375rem;
+  padding-left: 10px;
+  border-radius: 6px;
+  color: #a0a0a0;
+  height: 2.5rem;
+  width: 10rem;
+}
+
+.book-section-header select option {
+  text-transform: capitalize;
+}
+
+.book-section-list {
+  /*  took this from the site */
+  display: grid;
+  grid-row-gap: 2rem;
+  grid-column-gap: 1rem;
+  grid-auto-flow: row dense;
+  grid-template-columns:
+    calc(25% - 0.75rem) calc(25% - 0.75rem) calc(25% - 0.75rem)
+    calc(25% - 0.75rem);
+}
