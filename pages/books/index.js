@@ -2,7 +2,7 @@ import Book from "@components/Book";
 
 import styles from "./index.module.css";
 
-function BookSection({ books }) {
+function BookSection({ books = [] }) {
   return (
     <div className={styles["book-section-content"]}>
       <div className={styles["book-section-header"]}>
